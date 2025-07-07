@@ -1,0 +1,98 @@
+body {
+  background: #f6f6f6;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: #fff;
+  /* max-width: 600px; */
+  max-width: 1000px;
+  margin: 40px auto 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px #0001;
+  padding: 40px 32px 32px 32px;
+}
+h1 {
+  font-size: 2.3rem;
+  margin-bottom: 0.2em;
+  font-weight: 700;
+  color: #333;
+}
+.contact {
+  color: #444;
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+}
+.contact a {
+  color: #009688;
+  text-decoration: none;
+  word-break: break-all;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+.section-title {
+  color: #1abc5b;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 0.3em;
+  letter-spacing: 1px;
+}
+.about {
+  margin-bottom: 1.2em;
+  color: #222;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+.skills-list, .soft-skills-list {
+  margin: 0.5em 0 1em 1.2em;
+  padding: 0;
+  color: #222;
+  font-size: 1rem;
+}
+.skills-list li, .soft-skills-list li {
+  margin-bottom: 0.3em;
+  line-height: 1.5;
+}
+.edu-block {
+  margin-bottom: 1em;
+}
+.edu-title {
+  font-weight: 600;
+  color: #222;
+}
+.edu-details {
+  font-size: 0.98rem;
+  color: #444;
+  margin-bottom: 0.2em;
+}
+.grade {
+  font-size: 0.97rem;
+  color: #009688;
+  font-weight: 500;
+}
+.not-available {
+  color: #888;
+  font-style: italic;
+  font-size: 1rem;
+  margin-left: 1.2em;
+}
+.soft-title {
+  color: #1abc5b;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.3em;
+  font-size: 1.05rem;
+}
+@media (max-width: 650px) {
+  .container {
+    padding: 18px 6vw 18px 6vw;
+    max-width: 98vw;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
